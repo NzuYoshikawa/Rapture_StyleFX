@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1.0",
+	"FriendlyName": "Rapture_StyleFX",
+	"Description": "Post-process stylization for Unreal Engine: depth outline, hatching, ink and a world-locked watercolour, as post-process materials with a viewport toggle and render-pass friendly material instances. Content and Python only (no C++). Free, CC0 1.0 public domain. Split out of Rapture AOV (2026-10-07).",
+	"Category": "Rendering",
+	"CreatedBy": "Takayuki Yoshikawa",
+	"CreatedByURL": "https://yoshikawastudio.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,163 @@
+
+================================================================
+ENGINE
+----------------------------------------------------------------
+  version = 5.7.4-51494982+++UE5+Release-5.7
+
+================================================================
+BlendableLocation (pick After-Tonemapping; brief 4.1)
+----------------------------------------------------------------
+  BL_REPLACING_TONEMAPPER                      = <BlendableLocation.BL_REPLACING_TONEMAPPER: 3>
+  BL_SCENE_COLOR_AFTER_DOF                     = <BlendableLocation.BL_SCENE_COLOR_AFTER_DOF: 1>
+  BL_SCENE_COLOR_AFTER_TONEMAPPING             = <BlendableLocation.BL_SCENE_COLOR_AFTER_TONEMAPPING: 0>
+  BL_SCENE_COLOR_BEFORE_BLOOM                  = <BlendableLocation.BL_SCENE_COLOR_BEFORE_BLOOM: 6>
+  BL_SCENE_COLOR_BEFORE_DOF                    = <BlendableLocation.BL_SCENE_COLOR_BEFORE_DOF: 2>
+  BL_SSR_INPUT                                 = <BlendableLocation.BL_SSR_INPUT: 4>
+  BL_TRANSLUCENCY_AFTER_DOF                    = <BlendableLocation.BL_TRANSLUCENCY_AFTER_DOF: 5>
+  cast                                         = <built-in method cast of _EnumType object at 0x000001ACC1F46C48>
+  get_display_name                             = <method 'get_display_name' of 'EnumBase' objects>
+  name                                         = <member 'name' of 'EnumBase' objects>
+  static_enum                                  = <built-in method static_enum of _EnumType object at 0x000001ACC1F46C48>
+  value                                        = <member 'value' of 'EnumBase' objects>
+
+================================================================
+MaterialDomain (need MD_POST_PROCESS equivalent)
+----------------------------------------------------------------
+  MD_DEFERRED_DECAL                            = <MaterialDomain.MD_DEFERRED_DECAL: 1>
+  MD_LIGHT_FUNCTION                            = <MaterialDomain.MD_LIGHT_FUNCTION: 2>
+  MD_POST_PROCESS                              = <MaterialDomain.MD_POST_PROCESS: 4>
+  MD_SURFACE                                   = <MaterialDomain.MD_SURFACE: 0>
+  MD_UI                                        = <MaterialDomain.MD_UI: 5>
+  MD_VOLUME                                    = <MaterialDomain.MD_VOLUME: 3>
+  cast                                         = <built-in method cast of _EnumType object at 0x000001ACC5929248>
+  get_display_name                             = <method 'get_display_name' of 'EnumBase' objects>
+  name                                         = <member 'name' of 'EnumBase' objects>
+  static_enum                                  = <built-in method static_enum of _EnumType object at 0x000001ACC5929248>
+  value                                        = <member 'value' of 'EnumBase' objects>
+
+================================================================
+SceneTextureId (need SceneDepth=1 and PostProcessInput0=14 names)
+----------------------------------------------------------------
+  PPI_AMBIENT_OCCLUSION                        = <SceneTextureId.PPI_AMBIENT_OCCLUSION: 24>
+  PPI_ANISOTROPY                               = <SceneTextureId.PPI_ANISOTROPY: 30>
+  PPI_BASE_COLOR                               = <SceneTextureId.PPI_BASE_COLOR: 5>
+  PPI_CUSTOM_DEPTH                             = <SceneTextureId.PPI_CUSTOM_DEPTH: 13>
+  PPI_CUSTOM_STENCIL                           = <SceneTextureId.PPI_CUSTOM_STENCIL: 25>
+  PPI_DECAL_MASK                               = <SceneTextureId.PPI_DECAL_MASK: 21>
+  PPI_DIFFUSE_COLOR                            = <SceneTextureId.PPI_DIFFUSE_COLOR: 2>
+  PPI_IS_FIRST_PERSON                          = <SceneTextureId.PPI_IS_FIRST_PERSON: 31>
+  PPI_MATERIAL_AO                              = <SceneTextureId.PPI_MATERIAL_AO: 12>
+  PPI_METALLIC                                 = <SceneTextureId.PPI_METALLIC: 7>
+  PPI_OPACITY                                  = <SceneTextureId.PPI_OPACITY: 10>
+  PPI_POST_PROCESS_INPUT0                      = <SceneTextureId.PPI_POST_PROCESS_INPUT0: 14>
+  PPI_POST_PROCESS_INPUT1                      = <SceneTextureId.PPI_POST_PROCESS_INPUT1: 15>
+  PPI_POST_PROCESS_INPUT2                      = <SceneTextureId.PPI_POST_PROCESS_INPUT2: 16>
+  PPI_POST_PROCESS_INPUT3                      = <SceneTextureId.PPI_POST_PROCESS_INPUT3: 17>
+  PPI_POST_PROCESS_INPUT4                      = <SceneTextureId.PPI_POST_PROCESS_INPUT4: 18>
+  PPI_POST_PROCESS_INPUT5                      = <SceneTextureId.PPI_POST_PROCESS_INPUT5: 19>
+  PPI_POST_PROCESS_INPUT6                      = <SceneTextureId.PPI_POST_PROCESS_INPUT6: 20>
+  PPI_ROUGHNESS                                = <SceneTextureId.PPI_ROUGHNESS: 11>
+  PPI_SCENE_COLOR                              = <SceneTextureId.PPI_SCENE_COLOR: 0>
+  PPI_SCENE_DEPTH                              = <SceneTextureId.PPI_SCENE_DEPTH: 1>
+  PPI_SEPARATE_TRANSLUCENCY                    = <SceneTextureId.PPI_SEPARATE_TRANSLUCENCY: 9>
+  PPI_SHADING_MODEL_COLOR                      = <SceneTextureId.PPI_SHADING_MODEL_COLOR: 22>
+  PPI_SHADING_MODEL_ID                         = <SceneTextureId.PPI_SHADING_MODEL_ID: 23>
+  PPI_SPECULAR                                 = <SceneTextureId.PPI_SPECULAR: 6>
+  PPI_SPECULAR_COLOR                           = <SceneTextureId.PPI_SPECULAR_COLOR: 3>
+  PPI_STORED_BASE_COLOR                        = <SceneTextureId.PPI_STORED_BASE_COLOR: 26>
+  PPI_STORED_SPECULAR                          = <SceneTextureId.PPI_STORED_SPECULAR: 27>
+  PPI_SUBSURFACE_COLOR                         = <SceneTextureId.PPI_SUBSURFACE_COLOR: 4>
+  PPI_VELOCITY                                 = <SceneTextureId.PPI_VELOCITY: 28>
+  PPI_WORLD_NORMAL                             = <SceneTextureId.PPI_WORLD_NORMAL: 8>
+  PPI_WORLD_TANGENT                            = <SceneTextureId.PPI_WORLD_TANGENT: 29>
+  cast                                         = <built-in method cast of _EnumType object at 0x000001ACC50BC048>
+  get_display_name                             = <method 'get_display_name' of 'EnumBase' objects>
+  name                                         = <member 'name' of 'EnumBase' objects>
+  static_enum                                  = <built-in method static_enum of _EnumType object at 0x000001ACC50BC048>
+  value                                        = <member 'value' of 'EnumBase' objects>
+
+================================================================
+MaterialExpressionCustom editor properties
+----------------------------------------------------------------
+  material_expression_editor_x             : 0
+  material_expression_editor_y             : 0
+
+================================================================
+MaterialExpressionSceneTexture editor properties
+----------------------------------------------------------------
+  material_expression_editor_x             : 0
+  material_expression_editor_y             : 0
+
+================================================================
+MaterialEditingLibrary API (connect / create / set / recompile)
+----------------------------------------------------------------
+  clear_all_material_instance_parameters
+  connect_material_expressions
+  connect_material_property
+  create_material_expression
+  create_material_expression_in_function
+  delete_all_material_expressions
+  delete_all_material_expressions_in_function
+  delete_material_expression
+  delete_material_expression_in_function
+  duplicate_material_expression
+  get_editor_property
+  get_input_node_output_name_for_material_expression
+  get_inputs_for_material_expression
+  get_material_default_scalar_parameter_value
+  get_material_default_static_switch_parameter_value
+  get_material_default_texture_parameter_value
+  get_material_default_vector_parameter_value
+  get_material_expression_input_names
+  get_material_expression_input_types
+  get_material_expression_node_position
+  get_material_instance_runtime_virtual_texture_parameter_value
+  get_material_instance_scalar_parameter_value
+  get_material_instance_sparse_volume_texture_parameter_value
+  get_material_instance_static_switch_parameter_value
+  get_material_instance_texture_parameter_value
+  get_material_instance_vector_parameter_value
+  get_material_property_input_node
+  get_material_property_input_node_output_name
+  get_num_material_expressions
+  get_num_material_expressions_in_function
+  get_scalar_parameter_names
+  get_scalar_parameter_source
+  get_static_switch_parameter_names
+  get_static_switch_parameter_source
+  get_texture_parameter_names
+  get_texture_parameter_source
+  get_vector_parameter_names
+  get_vector_parameter_source
+  is_editor_property_overridden
+  layout_material_expressions
+  layout_material_function_expressions
+  recompile_material
+  rename_material_function_parameter_group
+  rename_material_parameter_group
+  reset_editor_property
+  set_editor_property
+  set_material_instance_parent
+  set_material_instance_runtime_virtual_texture_parameter_value
+  set_material_instance_scalar_parameter_value
+  set_material_instance_sparse_volume_texture_parameter_value
+  set_material_instance_static_switch_parameter_value
+  set_material_instance_texture_parameter_value
+  set_material_instance_vector_parameter_value
+  set_material_usage
+
+================================================================
+Maps in /Game (verification level candidates: M0b / M0)
+----------------------------------------------------------------
+  /Game/Main
+  /Game/RaptureAOV/Maps/RaptureAOVTestScene_M0b
+  /Game/RaptureAOVTestScene
+  /Game/RaptureAOVTestScene_M0
+  /Game/RaptureAOV/Maps/RaptureAOVTestScene
+  /Game/RaptureAOV/Maps/RaptureAOVTestScene_M0
+
+================================================================
+Current editor world + PostProcessVolumes
+----------------------------------------------------------------
+  world = Main
+  (no PostProcessVolume in current level)
